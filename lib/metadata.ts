@@ -3,25 +3,25 @@ import { SiteMetaData } from "@/types";
 export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 export const defaultAuthor = {
-  name: "Amy Shields",
-  handle: "@amyshieldsfake",
+  name: "Fanni Friedrich",
+  handle: "@dragonsandcodes",
   social: {
-    github: "https://github.com/thedevdavid",
-    instagram: "https://instagram.com/thedevdavid",
-    linkedin: "https://linkedin.com/in/thedevdavid",
-    tiktok: "https://tiktok.com/@thedevdavid",
-    twitter: "https://twitter.com/thedevdavid",
-    youtube: "https://youtube.com/@thedevdavid",
+    github: "https://github.com/dragonsandcodes",
+    instagram: "https://instagram.com/fanni_friedrich",
+    linkedin: "https://linkedin.com/in/fannifriedrich",
+    tiktok: "https://tiktok.com/@dragonsandcodes",
+    twitter: "https://twitter.com/dragonsandcodes",
+    youtube: "https://youtube.com/@dragonsandcodes",
   },
-  email: "definitelyfake@nevermind.com",
-  website: "https://nextjs.org",
-  jobTitle: "Frontend Engineer & UI Designer",
-  company: "Unicorns & Co.",
+  email: "fanni@dragonsandcodes.com",
+  website: "https://dragonsandcodes.com",
+  jobTitle: "Wannabe (game) developer, Content Creator",
+  //company: "Unicorns & Co.",
   availableForWork: true,
 };
 
 const defaultTitle = `${defaultAuthor.name}'s Blog`;
-const defaultDescription = `I'm ${defaultAuthor.name}. Building hackin’ cool digital products around the world 🌴.`;
+const defaultDescription = `I'm ${defaultAuthor.name}. Learning to code, because hot girls have quarter-life crisis.`;
 
 const siteMetadata: SiteMetaData = {
   title: {
